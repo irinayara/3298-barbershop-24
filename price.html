@@ -2,9 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Барбершоп Бородинский</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
@@ -27,7 +31,7 @@
       <ul class="broadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">магазин</a></li>
-        <li class="broadcrumbes-current">Средства для ухода</li>
+        <li class="breadcrumbs-current">Средства для ухода</li>
       </ul>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
@@ -37,12 +41,12 @@
           <fieldset>
             <legend>Производители</legend>
             <ul>
-              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" checked><label for="baxter-of-california">Бакстер</label></li>
-              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="AMERICAN crew" checked><label for="AMERICAN crew">Американ Крю</label></li>
-              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr natty"><label for="mr natty">Натти</label></li>
-              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="SUAVECITO">checked><label for="SUAVECITO">Суавекито</label></li>
-              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murray"><label for="murray">Мюррей</label>/li>
-              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin"><label for="malin">Малин</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter" checked><label for="filter-baxter">Бакстер</label></li>
+              <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="AMERICAN crew" id="filter-AMERICANcrew" checked><label for="filter-AMERICANcrew">Американ Крю</label></li>
+              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr natty" id="filter-mrnatty"><label for="filter-mrnatty">Натти</label></li>
+              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="SUAVECITO" id="filter-SUAVECITO">checked><label for="filter-SUAVECITO">Суавекито</label></li>
+              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murray" id="filter-murrays" disabled><label for="filter-murrays">Мюррей</label>/li>
+              <li class="filter-option"> <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin" id="filter-malin"><label for="filter-malin">Малин</label></li>
             </ul>
 
           </fieldset>

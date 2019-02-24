@@ -1,3 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12" viewBox="0 0 12 12">
-  <image id="cross" width="12" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAdElEQVQokZWRwQmAMAxFH4pdRFDULRygW7qAw3nwoBJJIWJT6L+05L9PmgZVACZ8jUBr4R04gZiJRPW2FFq0cGdCCU7e4BnRqWVbC3Dp6cI2ZGG5f+DmF6lQ1ZOqhq751tku7gDWwuKEEfZVB/SFcWVhAeABUqg2IuS1jVYAAAAASUVORK5CYII="/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<defs>
+		<image width="12" height="12" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIj48cGF0aCBkPSJNMTEuMTIgMmEuNC40IDAgMCAxIDAgLjU3TDggNS43MWEuNC40IDAgMCAwIDAgLjU3bDMuMTQgMy4xNGEuNC40IDAgMCAxIDAgLjU3TDEwIDExLjEzYS40MS40MSAwIDAgMS0uNTcgMEw2LjI3IDhhLjQxLjQxIDAgMCAwLS41NyAwbC0zLjE0IDMuMTJhLjQxLjQxIDAgMCAxLS41NyAwTC44NSAxMGEuNC40IDAgMCAxIDAtLjU3TDQgNi4yOGEuNC40IDAgMCAwIDAtLjU3TC44NSAyLjU3YS40LjQgMCAwIDEgMC0uNTdMMiAuODZhLjQxLjQxIDAgMCAxIC41NyAwTDUuNyA0YS40LjQgMCAwIDAgLjU3IDBMOS40MS44N2EuNDEuNDEgMCAwIDEgLjU3IDB6Ii8+PC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="cross copy" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
 </svg>
